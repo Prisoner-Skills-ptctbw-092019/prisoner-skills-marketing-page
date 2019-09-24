@@ -1,0 +1,71 @@
+html {
+  background: #3469ba;
+  background: -webkit-gradient(linear, left bottom, left top, from(#3469ba), to(#54426b));
+  background: linear-gradient(0deg, #3469ba 0%, #54426b 100%);
+  font-family: 'Josefin Slab', serif;
+  color: black;
+}
+
+.Head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 25px;
+  color: #e9f1f7;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 20px;
+  background: #e6eaff;
+  background: radial-gradient(circle, #e6eaff 0%, white 100%);
+}
+
+nav a {
+  text-decoration: none;
+  color: #5a6063;
+  font-weight: bold;
+  font-size: large;
+  padding: 2px;
+}
+
+.Innerbox {
+  background-color: #e9f1f7;
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-bottom: 75px;
+}
+
+footer {
+  color: #e9f1f7;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+footer .Contact {
+  margin-left: 25%;
+}
+/*# sourceMappingURL=index.css.map */
