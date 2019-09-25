@@ -6,6 +6,34 @@ html {
   color: black;
 }
 
+h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.Slogan {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .Head {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -75,5 +103,9 @@ footer .Contact {
   border: 2px solid #54426b;
   font-weight: bold;
   text-decoration: none;
+}
+
+.content {
+  padding-left: 2%;
 }
 /*# sourceMappingURL=index.css.map */
