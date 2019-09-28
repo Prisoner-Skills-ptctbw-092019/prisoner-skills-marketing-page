@@ -1,0 +1,179 @@
+html{
+  background: rgb(52,105,186);
+  background: linear-gradient(0deg, rgba(52,105,186,1) 0%, rgba(84,66,107,1) 100%);
+  font-family: 'Josefin Slab', serif;
+  color:black;
+}
+h1{
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+h2{
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+nav{
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  background: rgb(230,234,255);
+  background: radial-gradient(circle, rgba(230,234,255,1) 0%, rgba(255,255,255,1) 100%);
+  a{
+    text-decoration: none;
+    color: #5a6063;
+    font-weight: bold;
+    font-size: large;
+    padding: 2px;
+  }
+}
+.Thumbnail{
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  border-top: 4px double #E9F1F7;
+  border-bottom: 4px double #E9F1F7;
+  margin-top: 7%;
+  margin-bottom: 7%;
+  padding-top: 7%;
+  padding-bottom: 7%;
+  .explore{
+    margin-bottom: 5%;
+    border-radius: 5px;
+    background-color: #3469BA;
+    height: 30px;
+  }
+  .explore:hover{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23453886' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+    background-position: bottom;
+    background-repeat: repeat-x;
+    background-size: 20%;
+    border-bottom: 0;
+    padding-bottom: .3em;
+    text-decoration: none;
+  }
+  p {
+    margin-left: 15%;
+    margin-right: 15%;
+    color: #e9f1f7;
+    font-size: 1rem;
+    width: 50%;
+    border-bottom: 2px double #E9F1F7;
+    border-top: 2px double #E9F1F7;
+    padding-top: 3px;
+    padding-bottom: 3px;
+  }
+  h5{
+    font-size: 1.3rem;
+    border-bottom: 2px solid #E9F1F7;
+  }
+  h3{
+    font-size: 1.5rem;
+    border-bottom: 2px solid #E9F1F7;
+  }
+}
+.Page{
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 4px double #E9F1F7;
+  padding-bottom: 7%;
+  .Prev{
+    margin-left: 2%;
+    margin-right: 2%;
+    -moz-box-shadow:inset 3px 4px 0px 0px #899599;
+    -webkit-box-shadow:inset 3px 4px 0px 0px #899599;
+    box-shadow:inset 3px 4px 0px 0px #899599;
+    background-color:transparent;
+    -moz-border-radius:15px;
+    -webkit-border-radius:15px;
+    border-radius:15px;
+    border:1px solid #d6bcd6;
+    display:inline-block;
+    cursor:pointer;
+    color:#E9F1F7;
+    font-family:Impact;
+    font-size:17px;
+    font-style:italic;
+    padding:16px 30px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #e1e2ed;
+  }
+  .Prev:hover {
+    background-color:transparent;
+  }
+  .Prev:active {
+    position:relative;
+    top:1px;
+  }
+  .Next{
+    margin-left: 2%;
+    margin-right: 2%;
+    -moz-box-shadow:inset 3px 4px 0px 0px #899599;
+    -webkit-box-shadow:inset 3px 4px 0px 0px #899599;
+    box-shadow:inset 3px 4px 0px 0px #899599;
+    background-color:transparent;
+    -moz-border-radius:15px;
+    -webkit-border-radius:15px;
+    border-radius:15px;
+    border:1px solid #d6bcd6;
+    display:inline-block;
+    cursor:pointer;
+    color:#E9F1F7;
+    font-family:Impact;
+    font-size:17px;
+    font-style:italic;
+    padding:16px 30px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #e1e2ed;
+  }
+  .Next:hover {
+    background-color:transparent;
+  }
+  .Next:active {
+    position:relative;
+    top:1px;
+  }
+}
+footer{
+  color: #e9f1f7;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+@media(max-width: 800px){
+  .Thumbnail{
+    p{
+      width: 70%
+    }
+    h5{
+      font-size: 1.5rem;
+    }
+    h3{
+      font-size: 1.75rem;
+    }
+  }
+}
+@media(max-width: 500px){
+  .Thumbnail{
+    p{
+      width: 85%;
+    }
+    h5{
+      font-size: 1.6rem;
+    }
+    h3{
+      font-size: 2rem;
+    }
+  }
+}
